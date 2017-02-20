@@ -2,6 +2,21 @@
 Author: Mike Blakeney
 Date: 2/19/2017
 
+## Note to Graders
+Use the following to load the tidy data file:
+'data = read.table("measurements_means.txt",header = TRUE)'
+
+Also, note that my R script assumes that the required data files are in your current working directory. On my machine, I simply unzipped the UCI HAR dataset archive to C:\R. The following files are required:
+
+- features.txt
+- activity_labels.txt
+- test/subject_test.txt
+- test/y_test.txt
+- test/X_test.txt
+- train/subject_train.txt
+- train/y_train.txt
+- train/X_train.txt
+
 ## Project Description
 [From the project instructions]: "The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected."
 
